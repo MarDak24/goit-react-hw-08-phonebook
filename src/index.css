@@ -1,0 +1,56 @@
+@import-normalize; /* bring in normalize.css styles */
+
+:root {
+  --color-main-one: #0f054c;
+  --color-main-two: #241a70;
+  /* --color-main-three: #0077b6; */
+  /* --color-contacts: #0096c7; */
+  --color-accent: #48cae4;
+  /* --color-line-hover: #90e0ef; */
+  --gradient-section: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(202, 240, 248, 0.8) 0%,
+    rgba(173, 232, 244, 0.8) 90%
+  );
+  --shadow-section: 0px 0px 5px rgba(100, 150, 200, 0.9);
+  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+body {
+  margin: 0;
+  font-family: 'Oswald', 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(
+    to right,
+    var(--color-main-two),
+    var(--color-main-one)
+  );
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
